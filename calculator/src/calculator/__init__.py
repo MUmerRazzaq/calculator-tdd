@@ -13,3 +13,17 @@ def add(a: float | int, b: float | int) -> float | int:
         The sum of a and b
     """
     return a + b
+
+
+def subtract(a: float | int, b: float | int) -> float | int:
+    """
+    Subtract the second number from the first number.
+    
+    Args:
+        a: First number (minuend)
+        b: Second number (subtrahend)
+        
+    Returns:
+        The difference of a and b (a - b)
+    """
+    return a - b
