@@ -41,3 +41,17 @@ def multiply(a: float | int, b: float | int) -> float | int:
         The product of a and b
     """
     return a * b
+
+
+def divide(a: float | int, b: float | int) -> float:
+    """
+    Divide the first number by the second number.
+    
+    Args:
+        a: First number (dividend)
+        b: Second number (divisor)
+        
+    Returns:
+        The quotient of a divided by b
+    """
+    return a / b
